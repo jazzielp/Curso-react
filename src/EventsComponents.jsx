@@ -11,7 +11,10 @@ function EventsComponents() {
             <button onClick={handleClick}>Click 2</button>
             {/* Evento onDobleClick con una función anonima */}
             <button onDoubleClick={() => console.log('doble click')}>Doble click</button>
-        </div>
+            <div onMouseEnter={() => console.log('mouse enter')} onMouseLeave={() => console.log('mouse out')}>
+                Mouse enter
+            </div>
+        </div >
     )
 }
 
