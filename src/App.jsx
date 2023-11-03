@@ -4,6 +4,7 @@ import SecondComponent from './SecondComponent'
 import ThirdComponent from './ThirdComponent'
 import EventsComponents from './EventsComponents'
 import StateComponent from './StateComponent'
+import MyUseEfect from './MyUseEfect'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <ThirdComponent  lastName='Puente'/>
       <EventsComponents />
       <StateComponent />
+      <MyUseEfect />
     </>
   )
 }
