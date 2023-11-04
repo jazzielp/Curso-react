@@ -5,6 +5,7 @@ import ThirdComponent from './ThirdComponent'
 import EventsComponents from './EventsComponents'
 import StateComponent from './StateComponent'
 import MyUseEfect from './MyUseEfect'
+import AjaxCompnent from './AjaxCompnent'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <EventsComponents />
       <StateComponent />
       <MyUseEfect />
+      <AjaxCompnent />
     </>
   )
 }
