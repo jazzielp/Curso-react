@@ -6,6 +6,7 @@ import EventsComponents from './EventsComponents'
 import StateComponent from './StateComponent'
 import MyUseEfect from './MyUseEfect'
 import AjaxCompnent from './AjaxCompnent'
+import FormComponent from './FormComponent'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <StateComponent />
       <MyUseEfect />
       <AjaxCompnent />
+      <FormComponent />
     </>
   )
 }
